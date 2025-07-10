@@ -1,0 +1,8 @@
+3
+5 10
+15 20
+25 30
+3.5
+10.1 5.6 22.7
+hello
+welcome to ezinput

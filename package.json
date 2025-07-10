@@ -1,0 +1,30 @@
+{
+  "name": "ezinput",
+  "version": "1.0.0",
+  "description": "Simple and readable command-line input utility for Node.js.",
+  "main": "src/ezinput.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "example": "node examples/sum.js < examples/input.sum.txt",
+    "example-cmd": "node examples/sum.js"
+  },
+  "keywords": [
+    "cli",
+    "input",
+    "ezinput",
+    "competitive-programming",
+    "nodejs",
+    "stdin",
+    "readline",
+    "utility"
+  ],
+  "author": "Shyok Mutsuddi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "29.0.0"
+  }
+}
