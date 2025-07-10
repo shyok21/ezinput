@@ -9,7 +9,6 @@ npm install ezinput
 ```
 
 ## Usage (v1.x - CP style batch input)
-
 In `examples/sum.js`:
 
 ```js
@@ -22,23 +21,27 @@ for (let i = 0; i < t; i++) {
 }
 ```
 
-Run:
+## Examples
+You can try out working examples inside the [examples/](./examples) folder.
+
+### Run with pre-supplied input:
+Runs the script with redirected input from a sample file.
 
 ```bash
-node examples/sum.js < examples/input.txt
+npm run example
 ```
 
-Or:
-
+### Run with manual input:
+Prompts user to type values directly into the terminal.
 ```bash
-node examples/sum.js
-# Type:
-2
-10 20
-30 40
-# Press:
-Ctrl + D
+npm run example-cmd
+>>> 3
+>>> 5 10
+>>> 15 20
+>>> 25 30
 ```
+and press Ctrl+D to end input.
+
 
 ## Supported Methods
 
