@@ -2,8 +2,6 @@
 tests/
 __tests__/
 coverage/
-
-# Examples (only if you don’t want to include them in the npm package)
 examples/
 
 # Editor/OS specific
