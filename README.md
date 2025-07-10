@@ -1,6 +1,7 @@
 # ezinput
 
 > Minimal and beginner-friendly CLI input utility for JavaScript.
+
 ![npm version](https://img.shields.io/npm/v/ezinput)
 ![npm downloads](https://img.shields.io/npm/dt/ezinput)
 ![License](https://img.shields.io/npm/l/ezinput)
