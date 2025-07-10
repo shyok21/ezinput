@@ -1,0 +1,18 @@
+# Test files
+tests/
+__tests__/
+coverage/
+
+# Examples (only if you don’t want to include them in the npm package)
+examples/
+
+# Editor/OS specific
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Misc
+todo.md
+*.test.js
+*.spec.js
