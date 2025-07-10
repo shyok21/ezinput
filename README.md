@@ -1,4 +1,5 @@
 # ezinput
+![Node.js CI](https://github.com/shyok21/ezinput/actions/workflows/node.js.yml/badge.svg)
 
 > Minimal and beginner-friendly CLI input utility for JavaScript.
 
