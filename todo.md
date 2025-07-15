@@ -11,9 +11,9 @@ Track of all implemented and planned utility functions for CLI input handling.
 ## Upcoming Additions
 - [ ] `grid(n, m)` - Reads `n` lines of `m` space-separated numbers as 2D array
 - [ ] `peekLine()` - Preview next line without consuming
-- [ ] `hasNext()` - Check if input has more lines
+- [x] `hasNext()` - Check if input has more lines
 - [ ] `inputFromArgs()` - Accept input from command-line arguments (`process.argv`)
-- [ ] `fromFile(path)` - Load input from a file instead of stdin (for local dev)
+- [x] `fromFile(path)` - Load input from a file instead of stdin (for local dev)
 ## Aliases (Planned Shorthands)
 - [ ] `i()` -> alias for `int()`
 - [ ] `il()` -> alias for `ints()`
@@ -28,9 +28,9 @@ Track of all implemented and planned utility functions for CLI input handling.
 -  [x] Test for edge cases: empty line, invalid number
 -  [x] Test error handling for out-of-bounds input
 ## Advanced Input Parsers (Mixed Type Support)
-- [ ] `input.json()` -> Parses next line as JSON (array, object, number, etc.)
-- [ ] `input.object()` -> Shorthand for inputting object (same as `json()`)
-- [ ] `input.array()` -> Parses a line like `[1, "apple", false, {"x":2}]` into actual JS array
+- [x] `input.json()` -> Parses next line as JSON (array, object, number, etc.)
+- [x] `input.object()` -> Shorthand for inputting object (same as `json()`)
+- [x] `input.array()` -> Parses a line like `[1, "apple", false, {"x":2}]` into actual JS array
 ### Use-cases:
 - `input.array()` -> Accepts `[1, false, "apple", { "x": 1 }]`
 - `input.object()` -> Accepts `{ "a": 1, "b": 2 }`
@@ -47,7 +47,7 @@ Track of all implemented and planned utility functions for CLI input handling.
 - [ ] Add CI with GitHub Actions
 - [ ] Add CONTRIBUTING.md
 ## Project Evolution
-- [ ] Publish on npm as `ezinput`
-- [ ] Setup badges in README (npm, test, license)
+- [x] Publish on npm as `ezinput`
+- [x] Setup badges in README (npm, test, license)
 - [ ] Prepare minimal website/docs (e.g. ezinput.dev or jsdocs)
 

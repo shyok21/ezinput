@@ -6,6 +6,8 @@
 ![npm version](https://img.shields.io/npm/v/ezinput)
 ![npm downloads](https://img.shields.io/npm/dt/ezinput)
 ![License](https://img.shields.io/npm/l/ezinput)
+
+> Now supports structured inputs (JSON, arrays, objects) — added in v1.1.0
 ---
 
 ## Installation
@@ -59,18 +61,13 @@ input.strings()       // Space-separated strings
 input.line()          // Raw line
 input.lines(n)        // Next n lines (string[])
 input.numbers(n)      // n lines of number arrays (2D array)
+// v1.1.0 additions
+input.json()          // Parses JSON array or object (single or multiline)
+input.array()         // Parses array from JSON input
+input.object()        // Parses object from JSON input
 ```
 
-
-
 ## Upcoming Features
-
-### v1.1.0 — Structured Inputs (JSON / Arrays / Objects)
-
-- `input.json()` → Parses JSON string input  
-- `input.array()` → Parses multiline `[1, 2, "apple"]`-style arrays  
-- `input.object()` → Parses key-value `{ a: 1, b: 2 }` string into JS object  
-- Optional: `input.fromEditor()` → Temporary input via in-editor (like `vim`)
 
 ### v1.2.0 — Interactive Live Mode (Readline)
 
@@ -81,6 +78,7 @@ input.numbers(n)      // n lines of number arrays (2D array)
   ```
 
 - Works like real-time `prompt()` or `readline.question()`.
+- `input.fromEditor()` → Temporary input via in-editor (like `vim`)
 
 ### v1.3.0 — Hybrid Input Factory
 
