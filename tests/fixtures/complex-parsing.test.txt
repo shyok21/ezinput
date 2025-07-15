@@ -1,0 +1,13 @@
+[1, 2, 3, 4]
+[
+  10,
+  20,
+  30
+]
+{"name": "Abc", "age": 26}
+{
+  "lang": "JavaScript",
+  "features": ["ES6", "Modules"]
+}
+[100, 200]
+{"ok": true}

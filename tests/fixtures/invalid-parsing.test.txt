@@ -1,0 +1,23 @@
+{ "name": "Shyok", age }
+
+[1, 2, "ok", ]
+
+{
+  "lang": "js",
+  "version":
+}
+
+[
+  1,
+  2,
+  3
+  4
+]
+
+{ "nested": { "a": 1, "b": } }
+
+{ "unterminated": "string }
+
+[1, 2, { "key": "val" }
+
+not_json_at_all
